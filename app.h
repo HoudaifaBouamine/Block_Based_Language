@@ -5,12 +5,12 @@
 #include "sdl2/SDL_image.h"
 #include "sdl2/SDL_main.h"
 #include "global.h"
+#include "input.h"
 
 void clear() 
 {
 	SDL_SetRenderDrawColor(app.renderer, 32, 32, 32, 255);
 	SDL_RenderClear(app.renderer);
-
 }
 
 void render()
@@ -21,10 +21,10 @@ void render()
 
 void handle_input()
 {
-	// Handling input code will be here
+	input_hendler();
 }
 
 void do_logic()
 {
-	// logic code will be here
+	// Logic code will be here
 }
