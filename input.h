@@ -14,7 +14,7 @@ void input_hendler() {
 		switch (event.type)
 		{
 		case SDL_QUIT:
-			app.renderer = false;
+			app.running = false;
 			break;
 
 		default:
